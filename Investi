@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inv.css?v=1.0">
+    <title>Unidad 5 - Hosting en la Nube y Servicios Web</title>
+</head>
+<body>
+    <header>
+        <h1>Unidad 5 - Hosting en la Nube y Servicios Web</h1>
+    </header>
+    <main>
+        <section id="conceptos-generales">
+            <h2>5.1 - Conceptos Generales</h2>
+            <p>El hosting en la nube se refiere al uso de servidores virtuales que se ejecutan en una infraestructura de nube gestionada por proveedores de servicios como Amazon Web Services (AWS), Microsoft Azure o Google Cloud Platform (GCP). Estos servicios ofrecen recursos computacionales escalables y flexibles que pueden adaptarse rápidamente a las necesidades de las aplicaciones.</p>
+            <ul>
+                <li><strong>Escalabilidad:</strong> Permite ajustar los recursos según la demanda.</li>
+                <li><strong>Costo-eficiencia:</strong> Modelo de pago por uso, donde solo se paga por los recursos utilizados.</li>
+                <li><strong>Flexibilidad:</strong> Fácil adaptación a diferentes cargas de trabajo y necesidades empresariales.</li>
+                <li><strong>Alta disponibilidad:</strong> Infraestructura distribuida que reduce el riesgo de tiempo de inactividad.</li>
+            </ul>
+        </section>
+        <section id="tipos-de-servicios">
+            <h2>5.2 - Tipos de Servicios en la Nube</h2>
+            <p>Los servicios en la nube se clasifican principalmente en tres categorías:</p>
+            <ul>
+                <li><strong>Infraestructura como Servicio (IaaS):</strong> Proporciona recursos de infraestructura como servidores, almacenamiento y redes. Ejemplos incluyen AWS EC2 y Google Compute Engine.</li>
+                <li><strong>Plataforma como Servicio (PaaS):</strong> Ofrece plataformas que permiten a los desarrolladores crear aplicaciones sin gestionar la infraestructura subyacente. Ejemplos incluyen Heroku y Google App Engine.</li>
+                <li><strong>Software como Servicio (SaaS):</strong> Entrega aplicaciones de software a través de Internet. Ejemplos incluyen Google Workspace, Microsoft Office 365 y Salesforce.</li>
+            </ul>
+        </section>
+        <section id="patrones-de-diseno">
+            <h2>5.3 - Patrones de Diseño</h2>
+            <p>Los patrones de diseño en la nube son enfoques recomendados para resolver problemas comunes de arquitectura en la implementación de servicios y aplicaciones en la nube. Algunos patrones comunes incluyen:</p>
+            <ul>
+                <li><strong>Microservicios:</strong> Descomposición de aplicaciones en servicios pequeños y autónomos que pueden desarrollarse, desplegarse y escalarse independientemente.</li>
+                <li><strong>Autoscaling:</strong> Escalado automático de recursos en función de la demanda.</li>
+                <li><strong>Patrón de cola:</strong> Uso de colas para gestionar tareas asíncronas y mejorar la resiliencia.</li>
+                <li><strong>Caché distribuido:</strong> Mejora del rendimiento al almacenar datos en cachés distribuidos para un acceso más rápido.</li>
+            </ul>
+        </section>
+        <section id="estandares-en-servicios">
+            <h2>5.4 - Estándares en Servicios</h2>
+            <p>Los estándares en servicios en la nube son conjuntos de normas y prácticas recomendadas que aseguran la interoperabilidad, seguridad y eficiencia. Algunos estándares importantes incluyen:</p>
+            <ul>
+                <li><strong>ISO/IEC 27001:</strong> Gestión de la seguridad de la información.</li>
+                <li><strong>ISO/IEC 27017:</strong> Controles específicos para servicios en la nube.</li>
+                <li><strong>ISO/IEC 27018:</strong> Protección de datos personales en la nube pública.</li>
+                <li><strong>SOC 2:</strong> Auditorías de control de seguridad, disponibilidad, procesamiento, integridad y confidencialidad.</li>
+            </ul>
+        </section>
+        <section id="plataformas-tecnologicas">
+            <h2>5.5 - Plataformas Tecnológicas</h2>
+            <p>Las plataformas tecnológicas en la nube incluyen una variedad de servicios y herramientas que los proveedores de nube ofrecen para construir, desplegar y gestionar aplicaciones. Ejemplos incluyen:</p>
+            <ul>
+                <li><strong>Amazon Web Services (AWS):</strong> Ofrece una amplia gama de servicios como computación (EC2), almacenamiento (S3), bases de datos (RDS), inteligencia artificial (SageMaker) y más.</li>
+                <li><strong>Microsoft Azure:</strong> Ofrece servicios similares a AWS con énfasis en la integración con productos de Microsoft.</li>
+                <li><strong>Google Cloud Platform (GCP):</strong> Conocido por sus capacidades de análisis de datos y machine learning con servicios como BigQuery y TensorFlow.</li>
+            </ul>
+        </section>
+        <section id="seguridad-e-interoperabilidad">
+            <h2>5.6 - Seguridad e Interoperabilidad</h2>
+            <h3>Seguridad en la Nube</h3>
+            <ul>
+                <li><strong>Control de acceso:</strong> Implementación de políticas de IAM (Identity and Access Management) para controlar quién puede acceder a qué recursos.</li>
+                <li><strong>Cifrado:</strong> Cifrado de datos en tránsito y en reposo para proteger la información sensible.</li>
+                <li><strong>Monitoreo y auditoría:</strong> Herramientas para monitorear la actividad y detectar comportamientos sospechosos.</li>
+            </ul>
+            <h3>Interoperabilidad</h3>
+            <ul>
+                <li><strong>APIs estándar:</strong> Uso de APIs estándar que permiten la integración entre diferentes servicios y plataformas.</li>
+                <li><strong>Formatos de datos comunes:</strong> Uso de formatos de datos comunes como JSON y XML para facilitar el intercambio de información.</li>
+                <li><strong>Herramientas de migración:</strong> Herramientas y servicios que permiten la migración de aplicaciones y datos entre diferentes entornos de nube.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
